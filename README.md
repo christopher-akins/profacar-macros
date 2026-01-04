@@ -1,7 +1,11 @@
 # Profacar - Macros Counter and Nutritional Support App
 
-After pulling repo, run:
+## After pulling repo:
 
-`npm install`
+1. `npm install`
+2. Add `.env` and `server.env`
 
-`npm dev`
+### Run Docker for local DB
+
+- `docker compose up -d`
+  - Make sure this is done after the following .env variables are set
